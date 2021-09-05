@@ -46,7 +46,8 @@
 /* trade-ins page */
 #banner{
     height:300px;
-    background-color:rgba(105,105,105,0.3);
+    background-color:black;
+    color:white;
 }
 
 #trade{
@@ -94,4 +95,33 @@ h4{
 #terms{
     height:250px;
     background-color:rgba(169,169,169, 0.3);
+}
+
+/* Footer */
+#footer{
+    height:300px;
+    background-color:none;
+}
+
+#email-bar{
+    width:285px;
+}
+
+#email-bar::placeholder{
+    color:gold;
+}
+
+.sign-up{
+    background-color:grey;
+    color:black;
+}
+
+/* social media */
+.sites{
+    list-style: none;
+}
+
+.list{
+    display:inline;
+    padding:5px;
 }
