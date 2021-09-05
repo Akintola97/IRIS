@@ -26,6 +26,7 @@
 .card {
     border: none;
     height:20rem;
+    background: none;
 }
 
 .card img{
@@ -51,6 +52,7 @@
 #trade{
     position:relative;
     top:60px;
+    font-weight: 500;
 }
 
 .search-box{
@@ -58,3 +60,34 @@
     bottom:-90px;   
 }
 
+/* trade in information */
+#information{
+    height:430px;
+}
+
+#information, h1{
+    font-weight: bold;
+}
+
+h3{
+    font-weight:bold;
+}
+
+h4{
+    font-weight:500;
+}
+.text{
+    text-align: center;
+}
+
+.find{
+    text-align: center;
+    background-color:grey;
+    border-radius: 12px;
+    width:150px;
+    height:30px;
+    color:white;
+}
+
+
+/* Terms and conditions trade-ins */
