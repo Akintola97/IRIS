@@ -46,7 +46,7 @@
 /* trade-ins page */
 #banner{
     height:300px;
-    background-color: gold;
+    background-color:rgba(105,105,105,0.3);
 }
 
 #trade{
@@ -62,11 +62,11 @@
 
 /* trade in information */
 #information{
-    height:430px;
+    height:460px;
 }
 
 #information, h1{
-    font-weight: bold;
+    font-weight: 500;
 }
 
 h3{
@@ -91,3 +91,7 @@ h4{
 
 
 /* Terms and conditions trade-ins */
+#terms{
+    height:250px;
+    background-color:rgba(169,169,169, 0.3);
+}
