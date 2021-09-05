@@ -17,13 +17,10 @@
 
 .game-order{
     height:350px;
-}
-
-
-
-.game-order{
     background-color: brown;
 }
+
+
 
 
 .card {
@@ -44,3 +41,20 @@
     color:black;
     text-align:center;
 }
+
+/* trade-ins page */
+#banner{
+    height:300px;
+    background-color: gold;
+}
+
+#trade{
+    position:relative;
+    top:60px;
+}
+
+.search-box{
+    position:relative;
+    bottom:-90px;   
+}
+
