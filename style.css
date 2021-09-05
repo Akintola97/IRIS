@@ -15,10 +15,8 @@
     top:8px;
 }
 
-.pre-order{
-    position:relative;
-    bottom:6px;
-    height:470px;
+.game-order{
+    height:350px;
 }
 
 
@@ -30,14 +28,19 @@
 
 .card {
     border: none;
-   
+    height:20rem;
 }
 
 .card img{
     height:10rem;
 }
 
-.card p{
-    text-align: center;
+.card-text{
     color:black;
+    text-align:center;
+}
+
+.card-date{
+    color:black;
+    text-align:center;
 }
