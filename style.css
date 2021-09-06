@@ -181,3 +181,23 @@ font-weight: 550;
     text-decoration:none;
     color:black;
 }
+
+/* Rewards tab */
+.jumbotron{
+    background-color: blanchedalmond;
+}
+
+.display-4{
+    text-align: center;
+}
+
+
+.lead{
+    text-align: center;
+}
+
+
+#playing-videogames{
+background-image: url(images/playing\ videogames.jpg);
+
+}
