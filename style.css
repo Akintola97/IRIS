@@ -2,12 +2,12 @@
     margin:0;
     padding:0;
     scroll-behavior: smooth;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .gow{
     background-color:beige;
-    height:450px;
+    height:430px;
 }
 
 .row{
@@ -47,6 +47,7 @@
 #banner{
     height:300px;
     background-color:black;
+    opacity: 0.8;
     color:white;
 }
 
@@ -67,7 +68,7 @@
 }
 
 #information, h1{
-    font-weight: 500;
+    font-weight: 550;
 }
 
 h3{
@@ -75,7 +76,7 @@ h3{
 }
 
 h4{
-    font-weight:500;
+    font-weight:550;
 }
 .text{
     text-align: center;
@@ -99,8 +100,8 @@ h4{
 
 /* Footer */
 #footer{
-    height:300px;
-    background-color:none;
+    height:370px;
+    background-color:bisque;
 }
 
 #email-bar{
@@ -124,4 +125,58 @@ h4{
 .list{
     display:inline;
     padding:5px;
+}
+
+/*find it */
+.look-up{
+    font-weight:550;
+}
+
+.find-it{
+    list-style: none;
+}
+
+.look-for{
+    padding:5px;
+}
+
+.look-for a{
+    text-decoration: none;
+    color:black;
+}
+
+/*get help */
+.aid{
+    font-weight:550;
+}
+
+.get-help{
+    list-style: none;
+}
+
+.help{
+    padding:5px;
+}
+
+.help a{
+    text-decoration: none;
+    color:black;
+}
+
+/* Network */
+.plug{
+font-weight: 550;
+}
+
+.network{
+    list-style: none;
+}
+
+.connect{
+    padding:5px;
+}
+
+.connect a{
+    text-decoration:none;
+    color:black;
 }
