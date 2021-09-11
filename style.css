@@ -191,13 +191,22 @@ font-weight: 550;
     text-align: center;
 }
 
+#reward-benefit{
+    background-color:white;
+}
 
-.lead{
+#benefit{
+    position: relative;
+    top:30px;
+}
+
+.purchase{
     text-align: center;
 }
 
-
-#playing-videogames{
-background-image: url(images/playing\ videogames.jpg);
+#table{
+    height:400px;
+    position:relative;
+    top:60px;
 
 }
