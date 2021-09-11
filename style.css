@@ -45,10 +45,9 @@
 
 /* trade-ins page */
 #banner{
-    height:300px;
-    background-color:black;
-    opacity: 0.8;
-    color:white;
+    height:340px;
+    background-color:aliceblue;
+    
 }
 
 #trade{
@@ -57,15 +56,13 @@
     font-weight: 500;
 }
 
-.search-box{
-    position:relative;
-    bottom:-90px;   
-}
 
 /* trade in information */
 #information{
-    height:400px;
+    height:430px;
     background-color:rgba(169,169,169, 0.2);
+    position: relative;
+    top:30px;
 }
 
 #information, h1{
@@ -99,8 +96,9 @@ h4{
 
 /* Terms and conditions trade-ins */
 #terms{
-    height:200px;
-    background-color:none;
+    height:250px;
+    background-color:white;
+   
 }
 
 /* Footer */
@@ -188,7 +186,7 @@ font-weight: 550;
 
 /* Rewards tab */
 .jumbotron{
-    background-color: blanchedalmond;
+    background-color:aliceblue;
 }
 
 .display-4{
@@ -209,13 +207,16 @@ font-weight: 550;
 }
 
 #table{
-    height:500px;
+    height:510px;
     position:relative;
     top:60px;
 
 }
 
 #score-points{
-    height:400px;
+    height:350px;
+}
 
+#game-magazine{
+    height:350px;
 }
