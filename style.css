@@ -44,59 +44,18 @@
 }
 
 /* trade-ins page */
-#banner{
-    height:340px;
+.jumbotron{
     background-color:aliceblue;
-    
 }
-
-#trade{
-    position:relative;
-    top:60px;
-    font-weight: 500;
-}
-
-
-/* trade in information */
-#information{
-    height:430px;
-    background-color:rgba(169,169,169, 0.2);
-    position: relative;
-    top:30px;
-}
-
-#information, h1{
-    font-weight: 550;
-}
-
-h3{
-    font-weight:bold;
-}
-
-h4{
-    font-weight:550;
-}
-.text{
-    text-align: center;
-}
-
-.find{
-    text-align: center;
-    background-color:grey;
-    border-radius: 12px;
-    width:150px;
-    height:30px;
-    color:white;
-}
-
-#location{
-    position:relative;
-    top:-90px;
+/*How to trade-in */
+#trade-in{
+    height:400px;
+    background-color: white;
 }
 
 /* Terms and conditions trade-ins */
 #terms{
-    height:250px;
+    height:350px;
     background-color:white;
    
 }
