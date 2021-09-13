@@ -5,19 +5,36 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.gow{
-    background-color:beige;
-    height:430px;
+/*Home screen carousel */
+#godofwar{
+    background-image: url(images/godofwartheme.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:600px;
 }
 
-.row{
-    position:relative;
-    top:8px;
+#spiderman{
+    background-image: url(images/milesmorales.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:600px; 
 }
 
+#valhala{
+    background-image: url(images/valhala-new.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:600px; 
+}
+
+
+#preorder{
+    background-color: white;
+}
+/*game order carousel */
 .game-order{
     height:350px;
-    background-color:none;
+    background-color:white
 }
 
 
