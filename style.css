@@ -66,6 +66,7 @@
     background-size:auto;
     background-repeat: no-repeat;
     height:600px;  
+    margin-bottom: 0px;
 }
 
 .playstation-text{
@@ -74,8 +75,14 @@
     
 }
 
-/*X-box Jumbotron*/
-
+/*x-box Jumbotron*/
+#xbox{
+    height:600px;
+    margin-bottom:0px;
+    background-image:url(images/xboxseries.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
 
 /* trade-ins page */
 .jumbotron{
