@@ -31,7 +31,7 @@
 
 /*Pre-Order Carousel and Cards*/
 #preorder{
-    background:lightgray;
+    background:darkgray;
     height:250px;
 }
 
@@ -48,8 +48,8 @@
 
 /*New Game releases Carousel and Cards */
 #newrelease{
-    background-color: lightgray;
-    height:250px;
+    background-color: darkgrey;
+    height:230px;
 }
 
 .card {
