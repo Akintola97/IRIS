@@ -3,32 +3,155 @@
     margin:0;
     padding:0;
     scroll-behavior: smooth;
-    font-family: 'Urbanist', sans-serif;
+    
 }
 
+
 /*Home screen carousel */
+
+.carousel-image{
+    position:relative;
+}
+.carousel-item img{
+    width: 100%;
+    height:60vh;
+    background-position: absolute;
+    background-size: cover;
+}
+.carousel-image .game-overlay{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.2);
+}
+
+.game-overlay h1{
+    font-size:4vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.game-overlay h2{
+    font-size:4vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.game-overlay p{
+    font-size:2vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*last of us carousel */
+.carousel-image .lastofus-overlay{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.2);
+}
+
+.lastofus-overlay h1{
+    font-size:4vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.lastofus-overlay h2{
+    font-size:4vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.lastofus-overlay p{
+    font-size:2vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Mortal Kombat Carousel */
+.carousel-image .mortalkombat-overlay{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.2);
+}
+
+.mortalkombat-overlay h1{
+    font-size:4vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.mortalkombat-overlay h2{
+    font-size:4vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.mortalkombat-overlay p{
+    font-size:2vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #godofwar{
     background-image: url(images/godofwartheme.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    height:42rem;   
+    height:50rem;   
 }
+@media(max-width:1000px){
+    #godofwar{
+        font-size:1.2em;
+        background-size:100%;
+    }
+
+}
+
+
 
 #spiderman{
     background-image: url(images/milesmorales.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    height:42rem; 
+    height:50rem; 
 }
+
+@media(max-width:1000px){
+    #spiderman{
+       font-size:1.2em;
+        background-size:100%;
+    }
+}
+
 
 #valhala{
     background-image: url(images/valhala-new.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    height:42rem; 
+    height:50rem; 
 }
 
-
+@media(max-width:1000px){
+    #valhala{
+        font-size:1.2em;
+        background-size:100%;
+    }}
 
 
 
@@ -37,7 +160,7 @@
 /*Pre-Order Carousel and Cards*/
 #preorder{
     background:darkgray;
-    height:250px;
+    height:270px;
 }
 
 .card {
@@ -54,7 +177,7 @@
 /*New Game releases Carousel and Cards */
 #newrelease{
     background-color: darkgrey;
-    height:230px;
+    height:260px;
 }
 
 .card {
