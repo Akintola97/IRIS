@@ -249,6 +249,58 @@
 }
 
 
+/* section-5 */
+.section-5 .reward-banner{
+    padding-top:8vmin;
+    padding-bottom:8vmin;
+}
+
+.reward-banner h4{
+    font-size: 5vmin;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+.reward-banner p{
+    font-size: 2.5vmin;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+
+/* footer */
+footer{
+    background-color: aliceblue;
+}
+
+.footer-header h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5vmin;
+}
+
+.social-media{
+    padding-left:75vmin;
+    padding-right:75vmin;
+}
+
+.vertical-line{
+    border-left:1px solid ;
+    border-right:1px solid;
+}
+.leftvertical-line{
+    border-left:1px solid ;
+}
+
+.footer-list h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size:2vmin;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -425,3 +477,4 @@ font-weight: 550;
 #game-magazine{
     height:350px;
 }
+
