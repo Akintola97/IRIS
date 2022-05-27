@@ -95,13 +95,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Pre-order Carousel */
+.pre-order{
+   padding-left: 20vmin;
+   padding-right:20vmin;
+   background-color:white;
+}
 
-
-
-
-
-
-
+.pre-order h3{
+ font-size: 4vmin;
+ font-family: 'Open Sans', sans-serif;
+}
 
 
 
@@ -158,36 +162,12 @@
 
 
 /*Pre-Order Carousel and Cards*/
-#preorder{
-    background:darkgray;
-    height:270px;
-}
-
-.card {
-    border: none;
-    height:20rem;
-    background: none;
-}
-
-.card-img-top{
-    height:10rem;
-}
 
 
 /*New Game releases Carousel and Cards */
 #newrelease{
     background-color: darkgrey;
     height:260px;
-}
-
-.card {
-    border: none;
-    height:20rem;
-    background: none;
-}
-
-.card-img-top{
-    height:10rem;
 }
 
 
