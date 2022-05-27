@@ -107,7 +107,13 @@
  font-family: 'Open Sans', sans-serif;
 }
 
-
+.pre-order .card{
+    border:none;
+}
+.pre-order .card-body h5{
+    font-size: 3vmin;
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* section-1 */
 .banner-image{
@@ -183,10 +189,64 @@
 .xbox-banner img{
     width:100%;
     height:auto;
+    background-position: absolute;
+    background-size: cover;
 }
 
+.xboxbanner-text{
+    width:100%;
+    height:120%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.xboxbanner-text h4{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4.5vmin;
+}
+.xboxbanner-text h6{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5vmin;
+}
+.xboxbanner-text p{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vmin;
+}
 
+/* section-4 */
+.section-4 .xbox-header h4{
+    font-size: 4vmin;
+    font-family: 'Open Sans', sans-serif;
+}
+.section-4 .xbox-header p{
+    font-size: 2.5vmin;
+    font-family: 'Open Sans', sans-serif;
+}
+.section-4 .xbox-learnmore{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.section-4 .xbox-learnmore .fa-xbox{
+    font-size: 10vmin;
+}
+.section-4 .xbox-learnmore .fa-ticket-alt{
+    font-size: 10vmin;
+}
+.section-4 .xbox-learnmore .fa-handshake{
+    font-size: 10vmin;
+}
 
+.section-4 .xbox-learnmore h4{
+    font-size:3vmin;
+    font-family: 'Open Sans', sans-serif;
+}
+.section-4 .xbox-learnmore p{
+    font-size:2.5vmin;
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 
