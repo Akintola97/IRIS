@@ -266,6 +266,171 @@
     color:white;
 }
 
+/* Reward Page */
+
+.reward-jumbo{
+    padding-top:10vmin;
+    padding-bottom:10vmin;
+    background-color: black;
+}
+.reward-jumbo h4{
+    font-size: 10vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.reward-jumbo p{
+    font-size:5vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Main Rewards page */
+main{
+    background-color: aliceblue;
+}
+
+
+.benefits-header h4{
+    font-size: 5vmin;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.fa-coins, .fa-thumbs, .fa-trophy, .fa-star{
+    font-size: 3vmin;
+}
+
+.reward-icons h4{
+font-size: 3vmin;
+font-family: 'Open Sans', sans-serif;
+}
+.reward-icons p{
+font-size: 2vmin;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.section-rewards1{
+    background-color:white;
+}
+
+
+.section-rewards1 .btn{
+    font-size: 2vmin;
+font-family: 'Open Sans', sans-serif;
+}
+
+/* section rewards 2 */
+.carousel-image{
+    position:relative;
+}
+#stay-connected video{
+    width: 100%;
+    height:100%;
+    background-position: absolute;
+    background-size: cover;
+}
+.carousel-image .rewards-overlay{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.2);
+}
+
+.rewards-overlay h1{
+    font-size:4vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.rewards-overlay h4{
+    font-size:3vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rewards-overlay p{
+    font-size:2vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* second rewards carousel */
+#about-item img{
+    width: 100%;
+    height:100%;
+    background-position: absolute;
+    background-size: cover;
+}
+.carousel-image .tradeins-overlay{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.2);
+}
+
+.tradeins-overlay h1{
+    font-size:4vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.tradeins-overlay h2{
+    font-size:4vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tradeins-overlay p{
+    font-size:2vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* third rewards carousel */
+#about-item img{
+    width: 100%;
+   height:auto;
+    background-position: absolute;
+    background-size: cover;
+}
+.carousel-image .gamingstore-overlay{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.2);
+}
+
+.gamingstore-overlay h1{
+    font-size:4vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.gamingstore-overlay h2{
+    font-size:4vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gamingstore-overlay p{
+    font-size:2vmin;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
 /* footer */
 footer{
     background-color: aliceblue;
@@ -276,10 +441,7 @@ footer{
     font-size: 3.5vmin;
 }
 
-.social-media{
-    padding-left:75vmin;
-    padding-right:75vmin;
-}
+
 
 .vertical-line{
     border-left:1px solid ;
